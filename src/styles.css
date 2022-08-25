@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(//db.onlinewebfonts.com/c/147ef976590036b6603af506cdf7a923?family=Brandon+Text+Black);
+
+
+/* ********************Custom Properties******************* */
+:root{
+    
+    --primaryColor:#00A2FF;
+    --secundaryColor:#0F2B56;
+    --sthirdColor:#BFC4D1;
+    --backgroundColor:#F4F5F7;
+  
+}
+
+body{
+    
+  
+    background-color: rgba(249, 246, 242, 0.467);
+   overflow: hidden;
+
+}
