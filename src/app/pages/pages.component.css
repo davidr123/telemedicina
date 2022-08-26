@@ -238,3 +238,44 @@ a {
     
 
 }
+
+/* .content-wrap {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    background-color: red;
+}
+
+
+
+main {
+    height: 100%;
+    overflow: auto;
+    padding: 16px;
+    width: 100px;
+    background-color: red;
+
+  
+}
+
+:host {
+    
+    height: 100%;
+    width: 200px;
+    background-color: red;
+
+}
+
+
+
+.igx-nav-drawer__aside{
+    width: 200px;
+    background-color: red;
+
+
+
+}
+
+igx-nav-drawer{
+    background-color: red;
+} */

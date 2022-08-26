@@ -8,23 +8,37 @@ import { HomeComponent } from './pages/home/home.component';
 import { PagesModule } from './pages/pages.module';
 import { LoginComponent } from './auth/login/login.component';
 import { AuthModule } from './auth/auth.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { 
+	IgxButtonModule,
+	IgxIconModule,
+	IgxNavigationDrawerModule,
+	IgxRippleModule,
+	IgxToggleModule
+ } from "igniteui-angular";
 
-
+//I keep the new line
 @NgModule({
   declarations: [
     AppComponent,
     PagesComponent,
     HomeComponent,
     LoginComponent,
- 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    AuthModule
+    AuthModule,
+    BrowserAnimationsModule,
+    IgxButtonModule,
+    IgxIconModule,
+    IgxNavigationDrawerModule,
+    IgxRippleModule,
+    IgxToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

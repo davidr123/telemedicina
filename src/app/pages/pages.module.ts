@@ -5,6 +5,14 @@ import { CitasmedicasComponent } from './citasmedicas/citasmedicas.component';
 import { HistoriaClinicaComponent } from './historia-clinica/historia-clinica.component';
 import { RouterModule } from '@angular/router';
 
+import { 
+	IgxButtonModule,
+	IgxIconModule,
+	IgxLayoutModule,
+	IgxNavigationDrawerModule,
+	IgxRippleModule,
+	IgxToggleModule
+ } from "igniteui-angular";
 
 
 @NgModule({
@@ -15,8 +23,17 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     PagesRoutingModule,
-    RouterModule
+    RouterModule,
+    IgxButtonModule,
+    IgxIconModule,
+    IgxLayoutModule,
+    IgxNavigationDrawerModule,
+    IgxRippleModule,
+    IgxToggleModule
+    
   ],
+
+  
   
 })
 export class PagesModule { }
