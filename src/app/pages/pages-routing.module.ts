@@ -6,10 +6,10 @@ import { HomeComponent } from './home/home.component';
 import { PagesComponent } from './pages.component';
 
 const routes: Routes = [
-    {path:'', component:PagesComponent ,
+    {path:'home', component:PagesComponent ,
     children:[
 
-        {path:'home', component:HomeComponent},
+        {path:'', component:HomeComponent},
         {path:'citas_medicas', component:CitasmedicasComponent},
         {path:'historia_clinica', component:HistoriaClinicaComponent},
 
