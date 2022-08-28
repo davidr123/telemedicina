@@ -16,12 +16,12 @@
     border-radius: 1rem;">
 
       <div class="d-flex flex-column px-2">
-        <div style="font-size: 1.4rem; font-weight: 700;"> Hola, Richard</div>
-        <div style="font-size: 0.7rem;">Viernes, 26 de agosto 2022</div>
+        <div class="name py-1" > Hola, Richard</div>
+        <div class="date py-1" >Viernes, 26 de agosto 2022</div>
       </div>
 
       <div class="d-flex align-items-center px-2">
-        <button class="btn btn-success">AGENDAR CITA</button>
+        <button class="btn btn-success btnagendar" >AGENDAR CITA</button>
       </div>
 
     </div>
@@ -30,10 +30,10 @@
     <div>
 
       <div class="d-flex">
-        <div style="border-left:solid 5px red ;">
+        <div  style="border-left:solid 5px red ; height: 30px; margin-top: 7px;">
         </div>
-        <div class="px-2">
-          <h4 style="font-size: 1.3rem;">Próximas Citas(2)</h4>
+        <div class="px-2 " style="margin-top: 10px;">
+          <h4 class="citasletter" >Próximas Citas(2)</h4>
         </div>
       </div>
       <div>
@@ -42,17 +42,77 @@
 
 
 
-    <div class="card mt-3">
+    <div class="card mt-3" style="height: 5.5rem;">
 
-      <div>
+      <div class="d-flex justify-content-between">
+        <div class="d-flex px-2 py-2" >
+          <div >
+            <h4 class="medicinaleter"  >Medicina General</h4>  
+          </div>
 
-        <h4 style="font-size: 1.5rem; font-weight:700">Medicina General</h4>
+          <div class="d-flex px-2">
+            <div class="fechaletter">
+              03 SEPT
+            </div>
+            <div class="horaletter"  >
+              08:30
+            </div>
+          </div>
+  
+      
+  
+        </div>
 
+        <div class=" py-3 px-2 ">
+          <i class="bi bi-chevron-compact-right"></i>
+
+        </div>
       </div>
 
-      <div>
-        <small style="font-size: .8rem; font-weight:400">Guayaquil, Av. 9 de octubre y Córdoba</small>
+
+      <div class="px-2">
+        <small class="direccionleter">Guayaquil, Av. 9 de octubre y Córdoba</small>
       </div>
+ 
+     
+
+    </div>
+
+
+    <div class="card mt-3" style="height: 5.5rem;">
+
+      <div class="d-flex justify-content-between">
+        <div class="d-flex px-2 py-2" >
+        
+          <div >
+            <h4 class="medicinaleter"  >Cardiología</h4>  
+          </div>
+
+          <div class="d-flex px-2">
+            <div class="fechaletter">
+              03 SEPT
+            </div>
+            <div class="horaletter"  >
+              08:30
+            </div>
+          </div>
+  
+      
+  
+        </div>
+
+        <div class=" py-3 px-2 ">
+          <i class="bi bi-chevron-compact-right"></i>
+
+        </div>
+      </div>
+
+
+      <div class="px-2">
+        <small class="direccionleter">Guayaquil, Av. 9 de octubre y Córdoba</small>
+      </div>
+ 
+     
 
     </div>
 
@@ -60,14 +120,28 @@
 
 
 
+
+  <div >
+
+    <div class="d-flex " style="margin-top: 18px;">
+      <div style="border-left:solid 5px #1671C9 ;">
+      </div>
+      <div class="px-2 " style="margin-top: 10px; height: 30px; margin-top: 7px;">
+        <h4 class="citasletter" >Accesos Rápidos</h4>
+      </div>
+    </div>
+    
+  </div>
+
 <div class="cardsmedicas mt-5">
 
+
   <div class="cards ">
-    <div class="card d-flex justify-content-around ">
+    <div class="card d-flex justify-content-center ">
 
       <div class="d-flex justify-content-center px-2">
         <div>
-          <p>Consulta médica</p>
+          <p style="font-weight: 700;">Consulta médica</p>
         </div>
       
       
@@ -77,10 +151,10 @@
         <img src="assets/estetoscopioori.png" alt="Consulta M+edica" style="width: 25px; height:25px;">
       </div>
     </div>
-    <div class="card d-flex justify-content-around  ">
+    <div class="card d-flex justify-content-center  ">
       <div class="d-flex justify-content-center px-2">
         <div>
-          <p>Laboratorio a Domicilio</p>
+          <p style="font-weight: 700;">Laboratorio a Domicilio</p>
         </div>
       
        
@@ -94,11 +168,11 @@
     </div>
 
 
-    <div class="card d-flex justify-content-around">
+    <div class="card d-flex justify-content-center">
 
       <div class="d-flex justify-content-center px-2">
         <div>
-          <p>Emergencia Médica</p>
+          <p style="font-weight: 700;">Emergencia Médica</p>
         </div>
       
        
@@ -108,10 +182,10 @@
         <img src="assets/llamada-de-emergencia.png" alt="Consulta M+edica" style="width: 25px; height:25px;">
       </div>
     </div>
-    <div class="card d-flex justify-content-around  ">
+    <div class="card d-flex justify-content-center  ">
       <div class="d-flex justify-content-center px-2">
         <div>
-          <p>Bienestar Familiar</p>
+          <p style="font-weight: 700;">Bienestar Familiar</p>
         </div>
       
       </div>
