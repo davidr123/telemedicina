@@ -309,3 +309,28 @@ body {
     width: 90px;
     height: 35px;
 }
+
+.hoveritem{
+    /* display: block;
+    width: 100%;
+    position: relative;
+    display: flex; */
+    /* padding-left: 40px; */
+    margin-top: 10px;
+    height: 42px;
+}
+
+.hoveritem:hover{
+    background-color: #5fa5e7;
+    border-radius: 1rem;
+    margin-top: 10px;
+    height: 42px;
+    width: 100%;
+}
+
+.hoveritem:focus{
+    background-color: #84bef3;
+    border-radius: 1rem;
+    margin-top: 10px;
+    height: 42px;
+}
